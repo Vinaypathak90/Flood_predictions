@@ -1,0 +1,33 @@
+
+---
+
+## 📊 Dataset
+
+- **Name**: [Satellite Images of Hurricane Damage](https://www.kaggle.com/datasets/robertkag/hurricane-damage-dataset)
+- **Source**: Kaggle
+- **Description**: High-resolution pre- and post-hurricane satellite images annotated for flood damage analysis.
+
+---
+
+## 🧠 Model
+
+- **Model**: `EfficientNetB0` (top layer removed)
+- **File**: `efficientnetb0_notop.h5`
+- **Training**:
+  - Used transfer learning with EfficientNetB0
+  - Fine-tuned using annotated flood damage images
+- **Output**: Flood severity prediction or binary flood detection
+
+main model 
+model.h5 execute jupyter code then it create 
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Requirements
+
+Install required packages:
+
+```bash
+pip install -r requirements.txt
